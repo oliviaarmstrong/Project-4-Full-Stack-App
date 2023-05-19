@@ -11,5 +11,5 @@ https://remarkable-florentine-ebdfad.netlify.app/GameSave
 -CSS Minecraft for Title/Buttons Inspo: https://codepen.io/joexmdq/pen/EOMLzg
 -Previous Class Assignments for API/React Layout
 -Learned About SQL/SQL Functions in 408
--Help from Parsa for some Javascript
+-Help from Parsa for how to do some Javascrip Syntax
 
