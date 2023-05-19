@@ -1,0 +1,127 @@
+/* styles.css */
+
+@font-face {
+    font-family: Minecraft;
+    src: url('/fonts/minecraft.ttf') format('truetype');
+}
+
+/* Title */
+.title {
+    max-width: 95%;
+    font-size: 40px;
+    text-align: center;
+    margin: 10px auto;
+    padding: 15px;
+	cursor: pointer;
+    font-weight: bold;
+    font-family: 'Minecraft', sans-serif;
+	background: #999 url('https://i.ibb.co/rb2TWXL/bgbtn.png') center / cover;
+	image-rendering: pixelated;
+	border: 2px solid #000;
+    padding-bottom: .3em;  
+    color: #DDD;
+    text-shadow: 2px 2px #000A;
+    box-shadow: inset -2px -4px #0006, inset 2px 2px #FFF7;
+}
+
+/* Sidebar Items */
+.sidebar-item {
+    padding: 10px;
+    margin: 5px;
+	cursor: pointer;
+    font-weight: bold;
+    font-family: 'Minecraft', sans-serif;
+	background: #999 url('https://i.ibb.co/rb2TWXL/bgbtn.png') center / cover;
+	image-rendering: pixelated;
+	border: 2px solid #000;
+    color: #DDD;
+    text-shadow: 2px 2px #000A;
+    box-shadow: inset -2px -4px #0006, inset 2px 2px #FFF7;
+  }
+
+/* Table Style */
+body {
+    font-family: 'Minecraft', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Flex Container */
+.container {
+    display: flex;
+}
+
+/* Sidebar Component */
+.sidebar {
+    width: 170px;
+    height: 100vh;
+    padding: 20px;
+
+}
+
+/* Links */
+.sidebar a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Searchbar */
+.searchbar {
+    font-size: 14px;
+}
+
+/* Main content */
+.main-content {
+    flex: 1;
+    padding: 20px;  
+}
+
+/* Background */
+body {
+    background-image: url(https://picfiles.alphacoders.com/478/478314.png);
+    background-size: cover;
+
+}
+
+/* Header */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Table Content */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #008000;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background: #999 url('https://i.ibb.co/rb2TWXL/bgbtn.png') center / cover;
+    color: white;
+}
+
+/* Button */
+button {
+    margin: 5px;
+    height: 40px;
+	cursor: pointer;
+    font-weight: bold;
+    font-family: 'Minecraft', sans-serif;
+	background: #999 url('https://i.ibb.co/rb2TWXL/bgbtn.png') center / cover;
+	image-rendering: pixelated;
+	border: 2px solid #000;
+    padding-bottom: .3em;  
+    color: #DDD;
+    text-shadow: 2px 2px #000A;
+    box-shadow: inset -2px -4px #0006, inset 2px 2px #FFF7;
+	
+}
+
